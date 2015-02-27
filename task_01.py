@@ -16,7 +16,6 @@ def know_what_i_mean(wink='wink', numwink=2):
     Examples:
         >>>know_what_i_mean(wink, 2)
         'Know_what_i_mean? winkwink, nudge nudge'
-        
         >>>know_what_i_mean(wink, 5)
         'Know_what_i_mean? winkwinkwinkwinkwink, nudge nudge nudge nudge nudge'
     """
