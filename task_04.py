@@ -4,6 +4,6 @@
 
 def too_many_kittens(kittens, litterboxes, catfood=False):
     if kittens >= litterboxes and catfood == False:
-        print True
+        return True
     else:
-        print False
+        return False
