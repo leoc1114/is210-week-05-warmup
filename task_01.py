@@ -14,13 +14,13 @@ def know_what_i_mean(wink='wink', numwink=2):
         Str: All arguments are concatenated by commas.
 
     Examples:
-        >>>know_what_i_mean('wink', 2)
+        >>>know_what_i_mean(wink, 2)
         'Know_what_i_mean? winkwink, nudge nudge'
-
-        >>>know_what_i_mean('wink', 5)
+        
+        >>>know_what_i_mean(wink, 5)
         'Know_what_i_mean? winkwinkwinkwinkwink, nudge nudge nudge nudge nudge'
     """
-    winks = ('wink' * numwink).strip()
+    winks = (wink * numwink).strip()
     nudges = ('nudge ' * numwink).strip()
     retstr = 'Know what I mean? {}, {}'.format(winks, nudges)
     return retstr

@@ -15,13 +15,11 @@ def too_many_kittens(kittens, litterboxes, catfood=False):
         if there is too many cats
 
     Examples:
-        >>> too_many_kittens(12, 13, False)
+        >>> too_many_kittens(11, 12, True)
         True
 
-        >>> too_many_kittens(
+        >>> too_many_kittens(13, 12, True)
+        True
     """
 
-    if kittens > litterboxes and catfood == False:
-        return True
-    else:
-        return False
+    return not (litterboxes >= kittens and catfood)
