@@ -3,7 +3,7 @@
 """Task 4 created"""
 
 def too_many_kittens(kittens, litterboxes, catfood=False):
-    if kittens >= litterboxes and catfood == False:
-        return True
-    else:
+    if litterboxes >= kittens and catfood == True:
         return False
+    else:
+        return True
