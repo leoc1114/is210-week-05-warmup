@@ -5,5 +5,5 @@
 
 import hamlet
 
-KEYWORD = hamlet.crazy_math(monkeys=84, hours = 200000, typewriters = None,
+KEYWORD = hamlet.crazy_math(monkeys=84, hours=200000, typewriters=None,
                             bananas=48)
