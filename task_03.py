@@ -6,6 +6,3 @@
 import hamlet
 
 KEYWORD = hamlet.crazy_math(84, 200000, None, 48)
-
-import task_03
-print task_03.KEYWORD

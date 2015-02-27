@@ -3,7 +3,7 @@
 """This module provides a function that knows what you mean"""
 
 
-def know_what_i_mean(wink, numwink=2):
+def know_what_i_mean(wink='wink', numwink=2):
     """Multiplying variables by 2 and returning a string.
 
     Args:
